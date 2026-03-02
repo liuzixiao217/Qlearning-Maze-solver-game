@@ -30,6 +30,7 @@ The core of the project is the Q-Learning algorithm:
 1.Q-table: A 2D array initialized to 0, where rows represent states (maze positions) and columns represent actions (movement directions).
 2.ε-greedy strategy: Balances exploration (random actions) and exploitation (optimal actions based on Q-values).
 3.Q-value update: Uses the formula:Q(s,a)=Q(s,a)+α×[r+γ×maxQ(s′,a′)−Q(s,a)]where α is the learning rate, γ is the discount factor, r is the immediate reward, and maxQ(s′,a′) is the maximum Q-value of the next state.
-<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/b52d3717-e886-4dad-9cfc-fe2c7ab7fac8" />
-<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/9104724b-f6df-41d8-9190-e2e8812b7573" />
-<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/b98cc2e8-5457-445e-b717-6b97aae6ff57" />
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/a7f41c82-6379-40ec-93e7-829e602de601" />
+<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/d0d2f62c-cadc-4a53-a635-92768f5f35a9" />
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/3b186fa9-5f7f-417d-b892-51099ab3199b" />
+
